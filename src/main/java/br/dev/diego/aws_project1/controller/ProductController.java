@@ -28,7 +28,7 @@ public class ProductController {
     private ProductService service;
 
     private static final Logger LOG = LoggerFactory.getLogger(ProductController.class);
-    private static final String FORMAT_LOGGER = ">>> {} {}";
+    private static final String FORMAT_LOGGER = ">>> {}:{}";
     private static final String CLASS_NAME = ProductController.class.getSimpleName();
 
     @GetMapping

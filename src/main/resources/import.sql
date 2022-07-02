@@ -1,1 +1,20 @@
-insert into tb_product (id, name, model, code, price) values (1, 'Produto teste', 'Modelo teste', '12345678', 1.99)
+INSERT INTO tb_product (name,model,code,price) VALUES ('Varius Et Euismod Corp.','Et Ultrices Posuere Limited','NWPS3538','0.89');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Donec Tincidunt Donec Institute','Duis Ltd','THXS6711','0.33');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Odio Corporation','Risus Nunc PC','QNYL3658','0.42');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Sollicitudin Orci Sem Limited','Magnis Dis Company','DFFS6110','0.69');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Metus LLC','Tristique Senectus LLC','JYSW0174','0.40');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Eleifend PC','Tellus Institute','UQGM2206','0.58');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Nonummy Ac Feugiat Inc.','Sapien LLP','AGDD8152','0.72');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Volutpat Nulla Consulting','Diam Duis Corporation','SLLW3385','0.37');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Turpis Nulla Aliquet Associates','Velit Pellentesque Industries','GQSJ3434','0.15');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Sit Amet Lorem PC','Mus Proin Corporation','ESYZ0599','0.77');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Mauris Non Dui Corp.','Tellus Faucibus Inc.','FNRW6366','0.04');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Magna A PC','Scelerisque Lorem Consulting','QTCI3423','0.89');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Curabitur Sed Tortor PC','Mauris Non Industries','TSIP7512','0.35');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Dictum Placerat Corp.','Congue In Industries','QJMP3700','0.55');
+INSERT INTO tb_product (name,model,code,price) VALUES ('A Ultricies LLP','Per Inceptos Limited','VYAX7040','0.98');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Fusce Mi Limited','Felis Institute','EGLE3768','0.18');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Lectus Industries','Lectus LLP','OHKL2078','0.67');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Dui Cras Pellentesque Limited','Luctus Vulputate Corp.','IYJR7657','0.12');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Sapien Imperdiet Institute','Nec Foundation','FKOM4553','0.43');
+INSERT INTO tb_product (name,model,code,price) VALUES ('Amet Risus Donec Associates','Cursus Corporation','JSRD5328','0.92');

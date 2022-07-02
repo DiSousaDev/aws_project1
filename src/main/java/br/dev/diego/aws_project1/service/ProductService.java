@@ -40,7 +40,9 @@ public class ProductService {
     @Transactional
     public ProductDTO updateProduct(Long id, ProductDTO productDTO) {
         repository.getReferenceById(id);
-        return new ProductDTO(repository.save(getProductFromProductDTO(productDTO)));
+        Product produto = getProductFromProductDTO(productDTO);
+        produto.setId(id);
+        return new ProductDTO(repository.save(produto));
     }
 
     @Transactional
