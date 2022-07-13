@@ -57,6 +57,7 @@ public class ProductService {
         product.setModel(productDTO.getModel());
         product.setCode(productDTO.getCode());
         product.setPrice(productDTO.getPrice());
+        product.setColor(product.getColor());
         return product;
     }
 }

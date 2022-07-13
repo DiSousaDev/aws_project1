@@ -10,15 +10,18 @@ public class ProductDTO {
     private String code;
     private double price;
 
+    private String color;
+
     public ProductDTO() {
     }
 
-    public ProductDTO(Long id, String name, String model, String code, double price) {
+    public ProductDTO(Long id, String name, String model, String code, double price, String color) {
         this.id = id;
         this.name = name;
         this.model = model;
         this.code = code;
         this.price = price;
+        this.color = color;
     }
 
     public ProductDTO(Product entity) {
@@ -27,6 +30,7 @@ public class ProductDTO {
         model = entity.getModel();
         code = entity.getCode();
         price = entity.getPrice();
+        color = entity.getColor();
     }
 
     public Long getId() {
@@ -47,5 +51,9 @@ public class ProductDTO {
 
     public double getPrice() {
         return price;
+    }
+
+    public String getColor() {
+        return color;
     }
 }
